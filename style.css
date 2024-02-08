@@ -1,0 +1,729 @@
+@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+.page1{
+    height: 100%;
+    width: 100%;
+    background:linear-gradient(rgb(142, 142, 236), pink ,rgb(206, 105, 105));
+    background-attachment: fixed;
+}
+.nav{
+    height: 5vmax;
+    width: 100%;
+    /* background-color:rgb(165, 165, 219); */
+    display: flex;
+    position: relative;
+}
+.nav>.logo{
+    height: 4vmax;
+    width: 4vmax;
+    background-image: url("https://media.istockphoto.com/id/1282428981/photo/paper-heart-in-rainbow-colors.jpg?s=612x612&w=0&k=20&c=28XkCrQWxoNmCx4j5dGnpmEoncOQho8-w4j64biYp4I=");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 50%;
+    margin: 1vmax 0 0 2vmax;
+}
+.nav>h1{
+    font-size: 1.8vmax;
+    color: rgb(45, 2, 85);
+    margin: 2vmax 0 0 1vmax;
+    font-family: sans-serif;
+
+}
+h1 > span{
+    color: rgb(4, 133, 4);
+}
+.search>button{
+    width: 22vmax;
+    height: 3vmax;
+    background-color:rgba(243, 235, 235, 0.925);
+    border-radius: 5vmax;
+    margin: 2vmax 0 0 20vmax;
+    padding: 0.7vmax;
+    text-align:left ;
+    font-size: 1.3vmax;
+    font-family: sans-serif;
+    color: rgba(29, 28, 28, 0.822);
+    border: 0vmax solid transparent;
+}
+.search>button:hover{
+    background-color: white;
+    border:0.1vmax solid grey;
+}
+.nav>.img{
+    height: 4vmax;
+    width: 4vmax;
+    border-radius: 50%;
+    background-image: url("https://images.unsplash.com/photo-1440589473619-3cde28941638?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Y29yaWFuJTIwZ2lybHxlbnwwfHwwfHx8MA%3D%3D");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 1vmax 0 0 4vmax;
+
+}
+hr{
+    margin-left: 2vmax;
+
+    height: 5vmax;
+    /* align-items: center; */
+}
+.lock >i{
+    height: 3vmax;
+    width: 3vmax;
+    font-size: 2vmax;
+    /* background-color: yellow; */
+    margin: 2vmax 0 0 2.7vmax;
+
+}
+.en{
+    height: 3vmax;
+    width: 4vmax;
+    margin: 2vmax 0 0 2.7vmax;
+    font-size: 2vmax;
+}
+.drop >i{
+    position: relative;
+    height: 3vmax;
+    width: 2vmax;
+    /* background-color: rgb(189, 24, 211); */
+    font-size: 2.5vmax;
+    margin: 1.9vmax 0 0 0;
+}
+.head{
+    /* background-color: aqua; */
+    /* margin: 5vmax 0 0 30vmax; */
+    text-align: center;
+    padding-top: 5vmax;
+    font-size: 1.6vmax;
+    color:black;
+    font-family: sans-serif;
+    line-height: 3vmax;
+}
+.head> button{
+    background-color: brown;
+    border-radius: 2vmax;
+    padding: 1vmax 3vmax;
+    font-size: 1.2vmax;
+    font-family: sans-serif;
+    border: 2px solid transparent;
+    margin-top: 1vmax;
+}
+.head> button:hover{
+    border: 0.2vmax solid orangered;
+    background-color: transparent;
+    color: orangered;
+}
+.head>h1 >span{
+    color:orangered;   
+}
+.im{
+    height: 16vmax;
+    /* background-image: url("https://media.istockphoto.com/id/1449793477/photo/abstract-waves-and-color-fusions-on-gray-blue-background.jpg?s=612x612&w=0&k=20&c=gwvO0RGR5hd92xO_drSFw-H3kU5KwIHWuAz6qjAM-94="); */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 1.8vmax;
+    border-radius: 100vmax 100vmax 100vmax 100vmax;
+}
+/* page2 */
+.page2{
+    height: 100%;
+    width: 100%;
+    background-color:rgb(231, 204, 204);
+    /* background-attachment: fixed */
+    position: relative;
+}
+.page2>h1{
+    /* align-items: center; */
+    text-align: center;
+    padding-top: 2.5vmax;
+    font-family: sans-serif;
+    font-size: 4vmax;
+    font-weight: 900;
+    background-image: url(https://images.unsplash.com/photo-1511512608152-b60215d0dd61?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8bXVsdGklMjBjb2xvcnxlbnwwfHwwfHx8MA%3D%3D);
+    background-size: cover;
+    /* background-position:; */
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+.three{
+    height: 28vmax;
+    width: 75vmax;
+    /* background-color: blueviolet; */
+    margin-top: 2vmax;
+    position: relative;
+    /* justify-content: center; */
+    /* align-items: center; */
+    display:flex;
+    margin-left: 13vmax;
+    /* margin-right: 20vmax; */
+    flex-wrap: nowrap;
+    overflow-x:auto;
+}
+.three::-webkit-scrollbar{
+    display: none;
+}
+.one{
+    flex-shrink: 0;
+    height: 92%;
+    width: 23vmax;
+    background-color:white;
+    margin-left: 2vmax;
+    box-shadow:  0.1vmax 2vmax 2vmax  rgb(37, 37, 37);
+}
+.i{
+    height: 14vmax;
+    /* background-color: black; */
+}
+.i>img{
+    height:14vmax;
+    width: 100%;
+    object-fit:cover;
+    background-position: center;
+    background-size: cover;
+}
+.one>button{
+    background-color: rgb(228, 14, 14);
+    border-radius: 2vmax;
+    color: white;
+    margin-left: 10vmax;
+    padding: 0.5vmax 1vmax;
+    border: 0vmax solid transparent;
+    font-family: sans-serif;
+    font-weight: 700;
+}
+.one>button:hover{
+    background-color:black;
+    color:aliceblue;
+    border: 0.2vmax solid black;
+}
+.one>i{
+    /* padding: 0.5vmax; */
+    /* background-color: aqua; */
+    font-size: 1vmax;
+    color: rgb(212, 158, 9);
+}
+.one>h2{
+    font-size: 1.3vmax;
+    color: rgb(2, 2, 39);
+    font-family: sans-serif;
+    margin-left: 0.5vmax;
+    padding-top: 0.7vmax;
+
+}
+.one>p{
+    font-family: sans-serif;
+    font-size: 0.9vmax;
+    padding-top: 0.6vmax;
+    margin-left: 0.5vmax;
+}
+.dot{
+    height: 2vmax;
+    width: 100%;
+    /* background-color: red; */
+    margin-top: 2vmax;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+}
+.dot1{
+    height: 0.8vmax;
+    width: 0.8vmax;
+    background-color:darkred;
+    border-radius: 20vmax;
+    /* margin-left: 2vmax; */
+    /* gap: 2vmax; */
+
+}
+.dot2{
+    height: 0.8vmax;
+    width: 0.8vmax;
+    background-color:rgb(236, 97, 97);
+    border-radius: 20vmax;
+    margin-left: 0.8vmax;
+}
+.page3{
+    height: 100%;
+    width: 100%;
+    background-color:rgb(231, 204, 204);
+    /* background-color: aqua; */
+    /* background-attachment: fixed; */
+}
+.nav3{
+    height: 10vh;
+    width: 100%;
+    /* background-color: blueviolet; */
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+.box3{
+    /* background-color: brown; */
+    display: flex;
+    margin-left: 13vmax;
+}
+.bo{
+    margin-left: 2vmax;
+    background-color: aliceblue;
+    padding:  0.5vmax 1.5vmax;
+    border-radius: 2vmax;
+    font-size: 1.2vmax;
+    font-weight: 600;
+    color: brown;
+    font-family: sans-serif;
+}
+.bo:hover{
+    background-color: brown;
+    color: white;
+}
+.input2{
+    /* background-color: brown; */
+    width:25vmax;
+    position: relative;
+    left: 15vmax;
+    display: flex;
+    /* justify-content: center; */
+
+}
+.input2>input{
+    width: 40vmax;
+    background-color: aliceblue;
+    position: relative;
+    /* left: 15vmax; */
+    /* color: rgb(190, 18, 18); */
+    border-radius: 2vmax;
+    padding: 0.6vmax;
+    border: 0px solid transparent;
+    font-size: 1.2vmax;
+    font-family: sans-serif;
+    font-weight: 500;
+}
+.input2>i{
+    /* background-color: rgb(198, 226, 43); */
+    /* height: 1vmax; */
+    font-size: 1vmax;
+    position: relative;
+    right:22vmax;
+    padding: 0.8vmax;
+}
+.all{
+    /* height: 2vmax; */
+    /* width: 3vmax; */
+    background-color: aliceblue;
+    position: relative;
+    left:16vmax;
+    border-radius: 2vmax;
+    padding:  0.5vmax 1.5vmax;
+    color: brown;
+    font-size: 1.2vmax;
+    font-family: sans-serif;
+    font-weight: 600;
+}
+.all:hover{
+    background-color: brown;
+    color: white;
+}
+.pro{
+    /* background-color: brown; */
+    height: 80vh;
+    width:100%;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+}
+.pro1{
+    background-color:white;
+    height: 90%;
+    width: 25%;
+    margin-left:2vmax;
+    margin-top: 2vmax;
+    border-radius: 1vmax;
+    box-shadow: 1vmax 1vmax 1vmax black;
+}
+.pro1>h1{
+    font-size: 1.3vmax;
+    font-family: sans-serif;
+    margin: 1vmax 0vmax 1vmax 1vmax;
+}
+.proimg{
+    height: 35vh;
+    width: 100%;
+    /* background-color: green; */
+    display: flex;
+}
+
+.proim{
+    height: 35vh;
+    width: 15vw;
+    background-color: rgb(17, 223, 17);
+    border-radius: 0vmax 1vmax 1vmax 0vmax;
+
+}
+.proim>img{
+    height: 35vh;
+    width: 15vw;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 0vmax 1vmax 1vmax 0vmax;
+
+}
+.proim2{
+    /* background-color: blueviolet; */
+    height: 30vh;
+    width: 9vw;
+    margin: 2vmax 0vmax 0vmax 1vmax;
+}
+.proim2>i{
+    color:yellow;
+}
+.proim2>i:nth-child(5){
+    color: rgba(176, 197, 236, 0.801);
+    /* border:0vmax solid yellow; */
+}
+ .home{
+    height: 20vh;
+    width: 8vw;
+    /* background-color: aqua; */
+    margin-top: 2vmax;
+} 
+.im2{
+    /* background-color: rgb(255, 123, 0); */
+    width: 100%;
+    height: 50%;
+    display: flex;
+}
+.imm2{
+    background-color: rgb(241, 173, 196);
+    height: 80%;
+    width: 48%;
+    margin:0.5vmax;
+
+}
+.imm2>i{
+    font-size: 2vmax;
+    padding: 0.9vmax 0vmax 0.6vmax 0.6vmax;
+    color:rgb(236, 23, 94);
+}
+.pro1>p{
+    font-size: 0.9vmax;
+    font-family: sans-serif;
+    padding: 1vmax 3vmax 0vmax 1.2vmax;
+    font-weight: 600;
+    /* background-color: blue; */
+}
+.pro1>i{
+    height: 4vh;
+    width: 3vw;
+    font-size: 1vmax;
+    color:rgb(4, 107, 4);
+    /* background-color: aqua; */
+    padding: 1vmax;
+    
+}
+.pro1>span{
+    font-family: sans-serif;
+    color: rgb(243, 35, 35);
+    position:absolute;
+    font-size: 3vmax;
+    font-weight: 600;
+    margin-left: 10vmax;
+}
+.tag{
+    /* background-color: aqua; */
+    height: 4vmax;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.tag1{
+    margin-right: 1vmax;
+    height: 2vmax;
+    width: 4vmax;
+    background-color:rgb(119, 235, 119);
+    color: green;
+    border-radius: 2vmax;
+    text-align: center;
+    /* align-items: center; */
+    padding-top:0.2vmax ;
+    font-weight: 600;
+}
+.tag1:hover{
+    background-color:skyblue;
+    color: rgb(45, 20, 204);
+    border: 0.1vmax solid blue;
+}
+
+.forthpage{
+    height: 100%;
+    width: 100%;
+    background-color:rgb(231, 204, 204);
+
+}
+.forthpage>h1{
+    text-align: center;
+    padding-top: 3vmax;
+    color: brown;
+    font-family: sans-serif;
+    font-size: 2.5vmax;
+    font-weight: 800;
+}
+.choseimg{
+    /* background-color: aqua; */
+    height: 26%;
+    width: 100%;
+    margin-top: 1vmax;
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+}.choseimg>img{
+    height: 26vh;
+    width: 20vw;
+    border-radius: 50vmax;
+}
+.choseimg>p{
+    /* background-color: blueviolet; */
+    width: 40vw;
+    padding: 2vmax;
+}
+.choseimg>p>span{
+    font-size: 1.7vmax;
+    font-weight: 900;
+    /* margin-bottom:2vmax; */
+}
+.play5{
+    background-color:rgb(231, 204, 204);
+    height: 120%;
+    width: 100%;
+    /* position: relative; */
+    /* justify-content: center; */
+    align-items: center;
+    text-align: center;
+    padding-top: 1vmax;
+    font-size: 0.5vmax;
+    font-family: sans-serif;
+    font-weight: 400;
+    color: rgba(26, 25, 25, 0.664);
+}
+.play5>button{
+    background-color: brown;
+    color: aliceblue;
+    border-radius: 2vmax;
+    padding: 1vmax 2vmax;
+    border: 0vmax solid transparent;
+    font-size: 1.2vmax;
+    margin-bottom: 1vmax;
+    box-shadow: 1vmax 1vmax 2vmax rgb(37, 37, 37);
+}
+.play5>button:hover{
+    background-color: black;
+    color: white;
+}
+.play5>h1:nth-child(3){
+    font-size: 2.5vmax;
+    color:brown;
+    margin-top: 3vmax;
+    font-family: sans-serif;
+    font-weight: 900;
+}
+.playdiv{
+    /* background-color: blue; */
+    height: 50%;
+    width: 100%;
+    margin-top: 5vmax;
+    display: flex;
+    /* align-items: center; */
+    justify-content:center;
+}
+.playdiv3{
+    background-color:aliceblue;
+    height:100%;
+    width: 25vw;
+    margin-left: 5vmax;
+    box-shadow: -1vmax -1vmax 1.5vmax black;
+}
+.playdiv3>img{
+    height: 25.5vh;
+    width: 12vw;
+    object-fit: cover;
+    object-position:top;
+    border-radius:50%;
+    padding: 1.5vmax;
+    background: linear-gradient(pink,blue,black,red,green,yellow,orangered,white);
+    border: 0.2vmax solid black;
+    /* box-shadow: 1vmax 0.5vmax 2vmax black; */
+    margin-top: 2vmax;
+}
+.playdiv3>p>span{
+    font-size: 1.7vmax;
+    font-weight: 800;
+    color: brown;
+}
+.playdiv3>p{
+    font-size: 1vmax;
+    color: black;
+    font-family: sans-serif;
+    /* justify-content: center; */
+    padding: 1vmax;
+    /* background-color: aqua; */
+}
+.footer{
+    background-color:rgb(231, 204, 204);
+    height: 100%;
+    width: 100%;
+    /* display: flex; */
+    /* gap: 2vmax; */
+    /* justify-content: center; */
+}
+.footer>h1{
+    text-align: center;
+    padding: 2vmax;
+    font-family: sans-serif;
+    font-weight: 900;
+    color: brown;
+    font-size: 2.5vmax;
+}
+.foot{
+    /* background-color: blue; */
+    height: 40%;
+    width: 100%;
+    display: flex;
+    gap: 2vmax;
+    justify-content: center;
+
+}
+.foot1{
+    height: 22vh;
+    width: 10vw;
+    font-weight: 900;
+    font-size: 2vmax;
+    text-align: center;
+    color: red;
+    padding-top: 4vmax;
+    background-color:rgba(139, 119, 122, 0.479);
+    clip-path: polygon(50% 0%, 80% 10%, 100% 35%, 100% 70%, 80% 90%, 50% 100%, 20% 90%, 0% 70%, 0% 35%, 20% 10%);
+}
+.foot2{
+    height: 21vh;
+    font-size: 1.6vmax;
+    font-weight: 900;
+    width: 10vw;
+    padding-top: 3vmax;
+    text-align: center;
+    color: orangered;
+    background-color: rgb(132, 241, 132);
+    clip-path: circle(50% at 50% 50%);
+    margin-top: 8vmax;
+
+}
+.foot3{
+    font-weight: 900;
+    height: 20vh;
+    padding-top: 3vmax;
+    font-size: 1.3vmax;
+    text-align: center;
+    width: 10vw;
+    color: brown;
+    background-color:rgba(194, 153, 233, 0.822);
+    clip-path: polygon(30% 0%, 70% 0%, 100% 30%, 100% 70%, 70% 100%, 30% 100%, 0% 70%, 0% 30%);
+
+}
+.foot4{
+    height: 22vh;
+    font-weight: 900;
+    font-size: 2vmax;
+    text-align: center;
+    padding-top: 3vmax;
+    /* font-family:cursive; */
+    font-family: 'Cedarville Cursive', cursive;
+    width: 10vw;
+    background-color: rgb(211, 235, 104);
+    clip-path: polygon(50% 0%, 80% 10%, 100% 35%, 100% 70%, 80% 90%, 50% 100%, 20% 90%, 0% 70%, 0% 35%, 20% 10%);
+    margin-top: 10vmax;
+    
+}
+.foot5{
+    font-weight: 900;
+    font-size: 2vmax;
+    text-align: center;
+    padding-top: 3.3vmax;
+    height: 20vh;
+    color: blue;
+    margin-top: 1vmax;
+    width: 12vw;
+    background-color: rgb(236, 143, 229);
+    clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
+
+}
+.foot6{
+    text-align: center;
+    padding-top: 3vmax;
+    font-size: 2vmax;
+    font-weight: 900;
+    margin-top: 6vmax;
+    color:orangered;
+    height: 25vh;
+    width: 12vw;
+    background-color: rgb(86, 230, 194);
+    clip-path: circle(50% at 50% 50%);
+}
+table{
+    width:30%;
+    height: 20%;
+    /* background-color: aqua; */
+    margin: 1vmax 0vmax 1.5vmax 60vmax;
+    font-family: serif;
+}
+td{
+    text-align: center;
+}
+.app{
+    height: 7%;
+    width: 20%;
+    /* background-color: aqua; */
+    margin-left: 62vmax;
+    display: flex;
+}
+.app1{
+    background-color: black;
+    height: 3vmax;
+    width: 10vmax;
+    margin-left: 1vmax;
+    display: flex;
+    padding: 0.5vmax;
+}
+.app1>i{
+    font-size: 2vmax;
+    color: aliceblue;
+}
+.app1>h1{
+    color:wheat;
+    font-family:sans-serif ;
+    font-size: 1.1vmax;
+    padding: 0.2vmax;
+}
+.inst{
+    /* background-color: aqua; */
+    height: 10%;
+    width: 30%;
+    margin-left: 53vmax;
+    font-size: 2vmax;
+    padding-left: 8vmax;
+    padding-top: 2vmax;
+    color: blue;
+}
+.inst>i{
+    margin-left: 2.5vmax;
+}
+.inst>i:nth-child(1){
+    color: rgb(228, 64, 91);
+}
